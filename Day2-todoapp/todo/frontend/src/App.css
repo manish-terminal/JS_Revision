@@ -1,0 +1,33 @@
+.main{
+  height: 100vh;
+  width:100vw
+}
+.heading h2{
+  text-decoration: underline;
+  text-align: center;
+}
+.inputbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.displaybox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputbox input{
+  width:40vw;
+  height: 4vh;
+}
+.inputbox button{
+  width:4vw;
+  height: 4vh;
+  background:transparent;
+  border: none;
+
+}
+.inputbox button:hover{
+  background: yellow;
+  border: red solid;
+}
